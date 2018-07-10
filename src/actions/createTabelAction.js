@@ -1,7 +1,7 @@
 import 'whatwg-fetch';
 import Axios from 'axios';
 
-const apiUrl = 'https://jsonplaceholder.typicode.com/posts';
+const apiUrl = 'https://jsonplaceholder.typicode.com/posts/1';
 export const FETCH_LIST = 'FETCH_LIST';
 
 // Sync Action

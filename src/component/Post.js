@@ -8,13 +8,6 @@ class Post extends Component {
 	}
 	render() {
 		const { post } = this.props;
-		const addTable = post.map((post, id) => {
-      	return <tr key={id}>
-      		<td>{post.id}</td>
-            <td>{post.title}</td>
-            <td >{post.body}</td>
-          </tr>
-        });
 		return( 
 			<div className="post">
 				<h1>Basic more then lists</h1>
@@ -27,7 +20,11 @@ class Post extends Component {
 					    </tr>
 				    </thead>
 					<tbody>
-				    {addTable}
+				    <tr>
+						<td>{post.id}</td>
+						<td>{post.title}</td>
+						<td >{post.body}</td>
+					</tr>
 					</tbody>
 				</table>
 			</div>
