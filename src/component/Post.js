@@ -10,7 +10,7 @@ class Post extends Component {
 		const { post } = this.props;
 		return( 
 			<div className="post">
-				<h1>Basic more then lists</h1>
+				<h1>One list</h1>
 				<table>
 					<thead>
 					    <tr>
